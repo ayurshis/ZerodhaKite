@@ -13,5 +13,8 @@ public class Table {
 	WebElement Stock = driver.findElement(By.xpath("//table//tbody//tr[16]//td[1]"));
 	String name = Stock.getText();
 	System.out.println(name);
+	
+	System.out.println("git practice");
+	
 }
 }
